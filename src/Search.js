@@ -22,7 +22,7 @@ const Search = () => {
 
                     <div className="mb-3 col-4 mx-auto text-center">
 
-                        <label className="form-label h4">Search</label>
+                        <label className="form-label h4">Search Zip-code</label>
                         <input
                             type="text"
                             className="form-control"

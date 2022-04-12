@@ -12,37 +12,43 @@ const data = {
             id: 1,
             img: img1,
             title: 'Pizza Palace',
-            desc: 'Create your own, or enjoy one of ours!'
+            desc: 'Create your own, or enjoy one of ours!',
+            zip: 80524
         },
         {
             id: 2,
             img: img2,
             title: 'Taco Shop',
-            desc: 'Better than Taco Bell!'
+            desc: 'Better than Taco Bell!',
+            zip: 80521
         },
         {
             id: 3,
             img: img3,
             title: 'Outback RibHouse',
-            desc: 'Best BBQ this side of the Mississippi!'
+            desc: 'Best BBQ this side of the Mississippi!',
+            zip: 80524
         },
         {
             id: 4,
             img: img4,
             title: 'Chinese Place',
-            desc: 'Authentic local Chinese cuisine!'
+            desc: 'Authentic local Chinese cuisine!',
+            zip: 80523
         },
         {
             id: 5,
             img: img5,
             title: 'Breakfast Hut',
-            desc: 'desc 5'
+            desc: '5 dollar breakfast...kids eat free!',
+            zip: 80523
         },
         {
             id: 6,
             img: img6,
-            title: 'blog 6',
-            desc: 'desc 6'
+            title: 'Italian',
+            desc: 'Pasta, pasta, pasta!',
+            zip: 80520
         },
     ]
 }
