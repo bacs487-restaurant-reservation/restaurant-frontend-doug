@@ -1,0 +1,21 @@
+.square{
+    display: auto;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(173, 134, 18);
+  }
+  .circle {
+    display: auto;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(57, 150, 203);
+    border-radius: 50%;
+  }
+  .container-restaurant{
+    margin: 0 auto;  
+    height: 700px;
+    width: 700px;
+    position: relative;
+    border: 3px solid rgb(73, 0, 128);
+
+  }
