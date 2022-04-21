@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import data from "./data";
+import Login from "./components/Login";
+import { useNavigate } from "react-router-dom";
 
 const Search = () => {
 
@@ -14,8 +16,13 @@ const Search = () => {
         )
     });
 
+    let navigate = useNavigate();
+
     return(
         <section className="py-4 container">
+            <button  onClick={() =>(navigate("/login"))} style={{ marginLeft: "auto" }}>
+                    Employee Login
+                </button>
             <div className="row justify-content-center">
 
                 <div className="col-12 mb-5">

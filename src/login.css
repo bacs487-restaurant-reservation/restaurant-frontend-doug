@@ -1,0 +1,13 @@
+li{
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .container-login{
+    margin: 0 auto;  
+    height: 500px;
+    width: 500px;
+    position: relative;
+    border: 3px solid rgb(73, 0, 128);
+  }
