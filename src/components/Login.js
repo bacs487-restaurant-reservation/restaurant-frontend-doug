@@ -23,12 +23,6 @@ function Login(){
                      <input type="text" name="name" />
                 </label>
                 <input type="submit" value="Submit" /></li>
-
-                <li><label>
-                    Restaurant ID:
-                     <input type="text" name="name" />
-                </label>
-                <input type="submit" value="Submit" /></li>
                 <li style={{textAlign: 'center'}}><button>Login</button></li> 
 
 
