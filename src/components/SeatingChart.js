@@ -19,8 +19,6 @@ function SeatingChart(){
     const tableCount = () =>{
         let maxTableCounter = 0;
         maxTableCounter ++;
-        
-        akljsdf;lja;ldfjal;jdflajdf;lasjdf;lkjasd
     }
 
 
