@@ -1,3 +1,12 @@
+body {
+  background-color: #FF952C;
+}
+
+header {
+  font-size: 24px;
+  padding: 20px;
+}
+
 li{
     list-style: none;
     text-align: center;
@@ -9,5 +18,6 @@ li{
     height: 500px;
     width: 500px;
     position: relative;
-    border: 3px solid rgb(73, 0, 128);
+    border: 3px solid; 
+    background-color: #FFCC5A;
   }
