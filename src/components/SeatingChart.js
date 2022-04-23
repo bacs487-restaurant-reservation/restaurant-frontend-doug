@@ -20,7 +20,7 @@ function SeatingChart(){
         let maxTableCounter = 0;
         maxTableCounter ++;
         
-        
+        akljsdf;lja;ldfjal;jdflajdf;lasjdf;lkjasd
     }
 
 
