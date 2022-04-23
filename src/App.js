@@ -6,6 +6,7 @@ import Login from "./components/Login";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import EmployeeButton from "./components/EmployeeButton";
 import SeatingChart from "./components/SeatingChart";
+import EmployeeSeatingChart from "./components/EmployeeSeatingChart";
 import Popup from "./components/Popup";
 function App(){
   return(
@@ -15,6 +16,7 @@ function App(){
               <Route path="/login" element={<Login />} />
               <Route path="/employeebutton" element={<EmployeeButton />} />
               <Route path="/seatingchart" element={<SeatingChart />}/>
+              <Route path="/employeeseatingchart" element={<EmployeeSeatingChart />}/>
           </Routes>
       </Router>
   )

@@ -6,12 +6,6 @@ import { useAuth0 } from "@auth0/auth0-react";
 function Login(){
     let navigate = useNavigate();
 
-    const LoginButton = () =>{
-        const { loginWithRedirect } = useAuth0();
-
-        return <button onClick={() => loginWithRedirect()}>Log In</button>;
-    }
-
     return(
         <body>
             <div className="container-login">
@@ -31,10 +25,8 @@ function Login(){
                              <input type="text" name="name" />
                         </label>
                     </li>
-                    <li>
-                        <input type="submit" value="Login" textAlign = 'center' />
-                    </li>
                     <li style={{textAlign: 'left'}}>
+                    <li><button onClick={() =>(navigate("/employeeseatingchart"))}>Login </button></li>
                     <li><button onClick={() =>(navigate("/"))}>Back </button></li>
                     </li>
                 </ul>
