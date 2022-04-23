@@ -2,13 +2,13 @@
     display: auto;
     width: 100px;
     height: 100px;
-    background-color: rgb(173, 134, 18);
+    background-color: rgb(66, 166, 243);
   }
   .circle {
     display: auto;
     width: 100px;
     height: 100px;
-    background-color: rgb(57, 150, 203);
+    background-color: rgb(60, 238, 176);
     border-radius: 50%;
   }
   .container-restaurant{
@@ -16,6 +16,11 @@
     height: 700px;
     width: 700px;
     position: relative;
-    border: 3px solid rgb(73, 0, 128);
+    border: 3px solid;
+    background-color: #FFCC5A;
 
   }
+  .centerTable {
+     margin: 0px auto; 
+  }
+  

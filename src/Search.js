@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import data from "./data";
+import restaurant, { getAllRestaurants } from "./components/restaurant.js"
+import data from "./data"
 import { useNavigate } from "react-router-dom";
 
 const Search = () => {

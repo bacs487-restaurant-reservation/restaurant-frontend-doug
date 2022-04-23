@@ -15,7 +15,7 @@ const RestaurantCard = ({ restaurant }) => {
             <div className="restaurant-info-container">
                 <p className="description">{restaurant.description}</p>
                 
-                <a href="#" className="reserve-link">Reserve a table!</a>
+                {/* <a href="#" className="reserve-link">Reserve a table!</a> */}
             </div>
             
             

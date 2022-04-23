@@ -22,3 +22,13 @@
     top: 16px;
     right: 16px; 
 }
+
+.popup-text {
+    width: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.centerTable {
+    margin: 0px auto; 
+ }
