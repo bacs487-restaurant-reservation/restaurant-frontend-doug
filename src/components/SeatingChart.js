@@ -3,12 +3,14 @@ import { useNavigate } from "react-router-dom";
 import "../seatingchart.css"
 import Popup from "./Popup";
 import { useState } from "react";
-import Search from "../Search";
+
+
 
 function SeatingChart(){
     let navigate = useNavigate();
 
     const[buttonPopup, setButtonPopup] = useState(false)
+
 
     const codeGenerator = () =>{
         window.alert()
@@ -21,12 +23,14 @@ function SeatingChart(){
         
     }
 
+
     let number = Math.floor(100000 + Math.random() * 900000);
     return(
         
         
         <div class="container-restaurant">
             <h1 style={{textAlign: 'center' }} ></h1>
+
             <table class = "centerTable">
                 <tr>
                     <td>
@@ -107,14 +111,17 @@ function SeatingChart(){
                     </td>
                 </tr>
             </table>
+
             <ul>
             <li><button onClick={() =>(navigate("/"))}>Back </button></li>
- 
             </ul>
             <Popup trigger = {buttonPopup} setTrigger={setButtonPopup}>
+
                 <p className = "popup-text"> Your confirmation code to present to the host is:  {number}</p>
                 
+
             </Popup>
+            
         </div>
      
      );
