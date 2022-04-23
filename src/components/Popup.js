@@ -5,8 +5,16 @@ function Popup(props) {
   return (props.trigger) ? (
     <div className='popup'>
         <div className='popup-innter'></div>
-        <button className='close-btn' onClick={() => props.setTrigger(false)}>close</button>
-        {props.children}
+        <table className = "centerTable">
+          <tr style={{textAlign: 'center'}}>
+            {props.children}
+          </tr>
+          <tr style={{textAlign: 'center'}}>
+            <button className='close-btn' onClick={() => props.setTrigger(false)}>close</button>
+          </tr>
+        </table>
+        
+        
 
     </div>
   ): "";
