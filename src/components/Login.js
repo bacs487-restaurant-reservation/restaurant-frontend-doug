@@ -1,9 +1,17 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../login.css"
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Login(){
     let navigate = useNavigate();
+
+    const LoginButton = () =>{
+        const { loginWithRedirect } = useAuth0();
+
+        return <button onClick={() => loginWithRedirect()}>Log In</button>;
+    }
+
     return(
         <body>
             <div className="container-login">
@@ -27,7 +35,7 @@ function Login(){
                         <input type="submit" value="Login" textAlign = 'center' />
                     </li>
                     <li style={{textAlign: 'left'}}>
-                        <button onClick={() =>(navigate("/"))}>Back </button>
+                    <li><button onClick={() =>(navigate("/"))}>Back </button></li>
                     </li>
                 </ul>
             </div>

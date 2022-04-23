@@ -14,6 +14,13 @@ function SeatingChart(){
         window.alert()
     }
 
+    const tableCount = () =>{
+        let maxTableCounter = 0;
+        maxTableCounter ++;
+        
+        
+    }
+
     let number = Math.floor(100000 + Math.random() * 900000);
     return(
         
